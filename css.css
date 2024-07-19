@@ -10,10 +10,10 @@ body {
     background-color: #1958a9; }
   
   .btn {
-    padding: .5rem 1.5rem;
+    padding: .5rem 1rem;
     border: 1px solid #1958a9;
     border-radius: 0;
-    color: #1958a9;
+    color: #070707;
     text-transform: uppercase;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -22,6 +22,17 @@ body {
       background-color: #1958a9;
       color: #232323; }
   
+      .btn1 {
+        padding: .5rem 1.5rem;
+        border: 2px solid #1958a9;
+        border-radius: 0;
+        color: #ffffff;
+        text-transform: uppercase;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s; }
+        .btn:hover {
+          background-color: #1958a9; }
   h2 {
     text-transform: uppercase;
     font-weight: 700; }
@@ -337,6 +348,62 @@ body {
         font-size: 1.85rem; }
       #about p + p {
         margin-bottom: 2.2rem; } }
+
+       
+
+        #internships{
+          background-color: gray;
+         h2 {
+            color: #1958a9;
+            text-align: center; }
+        }
+      
+      .internship-box {
+          background-color: black;
+          color: white;
+          padding: 20px;
+          border-radius: 8px;
+          margin-bottom: 30px;
+      }
+      
+      .internship-box h3 {
+          color: #ffffff;
+          font-size: 24px;
+          margin-bottom: 20px;
+      }
+      
+      .internship-box ul {
+          list-style-type: disc;
+          padding-left: 20px;
+          margin-bottom: 20px;
+      }
+      
+      .internship-box .internship-details {
+          display: flex;
+          justify-content: space-between;
+      }
+      
+      .internship-box .btn1 {
+          background-color: #333;
+          padding: 10px;
+          border-radius: 5px;
+          text-align: center;
+          width: 30%;
+      }
+      
+      .internship-box .btn1 strong {
+          display: block;
+          margin-bottom: 5px;
+      }
+      
+      .internship-box .btn1 a {
+          color: #1e90ff;
+          text-decoration: none;
+      }
+      
+      .internship-box .btn1 a:hover {
+          text-decoration: underline;
+      }
   
   #skills {
     background-color: #232323;
@@ -502,7 +569,7 @@ body {
     background-color: #333;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(40, 39, 39, 0.2);
     transition: transform 0.3s ease;
   }
   
@@ -600,11 +667,13 @@ body {
   }
   
   .project-card {
-    background-color: #f8f9fa;
+    background-color: #000000;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     overflow: hidden;
+    border-color: #70a0de;
+    box-shadow: #007bff;
   }
   
   .project-card img {
@@ -619,12 +688,13 @@ body {
   }
   
   .project-details h3 {
+    color: white;
     font-size: 20px;
     margin-bottom: 10px;
   }
   
   .project-details p {
-    color: #6c757d;
+    color: #ffffff;
     font-size: 16px;
     margin-bottom: 15px;
   }
