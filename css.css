@@ -207,13 +207,13 @@ body {
   .header__content {
     width: 90%;
     margin: 0 auto;
-    color: #fff;
-    font-size: 1rem;
+    color: #8cc6f6;
+    font-size: 0.2rem;
     text-align: center; }
     .header__content p {
-      line-height: 1rem; }
+      line-height: 2.25rem; }
       .header__content p:first-child {
-        line-height: 2rem; }
+        line-height: 3.3rem; }
     .header__content .btn {
       margin-top: 3rem; }
   
